@@ -68,7 +68,7 @@
 
 .team__member {
   background: var(--color-bg2);
-  padding: 2rem;
+  border-radius: 1rem;
   border: 1px solid transparent;
   transition: var(--transition);
   position: relative;
@@ -81,6 +81,7 @@
 }
 
 .team__member-image img {
+  border-radius: 1rem;
   filter: saturate(0);
 }
 
@@ -95,6 +96,7 @@
 
 .team__member-info p {
   color: var(--color-light);
+  padding-bottom: 10px;
 }
 
 .team__member-socials {
